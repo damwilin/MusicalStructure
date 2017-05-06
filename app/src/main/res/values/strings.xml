@@ -5,7 +5,7 @@
     <string name="store_name">Store</string>
     <string name="music_library_name">Music library</string>
     <string name="now_playing_description">This activity is for playing music. User can play and change songs, also user can open music library and search activity.</string>
-    <string name="search_description">This activity is for looking for songs which are on phone</string>
+    <string name="search_description">This activity is for looking for songs which are on phone.</string>
     <string name="store_description">This activity is for buying new songs on online store. When user will buy a song, it will be add to library.</string>
-    <string name="music_library_description">This is the activity where user can see all songs which are currently on phone</string>
+    <string name="music_library_description">This is the activity where user can see all songs which are currently on phone.</string>
 </resources>
