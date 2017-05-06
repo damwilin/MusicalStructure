@@ -8,7 +8,7 @@
     tools:context="com.wili.android.musicalstructure.NowPlaying">
 
     <TextView
-        style="@style/ActivityName"
+        style="@style/ActivityDescription"
         android:text="@string/now_playing_description" />
 
     <ImageView

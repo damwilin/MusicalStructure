@@ -7,6 +7,6 @@
     tools:context="com.wili.android.musicalstructure.SearchActivity">
 
     <TextView
-        style="@style/ActivityName"
+        style="@style/ActivityDescription"
         android:text="@string/search_description" />
 </LinearLayout>
