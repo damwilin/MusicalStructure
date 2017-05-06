@@ -11,8 +11,37 @@
         style="@style/ActivityName"
         android:text="Music Library Activity" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/song1"
+                style="@style/SongListItem"
+                android:text="Song1" />
+
+            <TextView
+                android:id="@+id/song2"
+                style="@style/SongListItem"
+                android:text="Song2" />
+        </LinearLayout>
+    </ScrollView>
+
     <Button
-        style="@style/MainButton"
         android:id="@+id/button_store"
-        android:text="store"/>
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="store" />
 </LinearLayout>
