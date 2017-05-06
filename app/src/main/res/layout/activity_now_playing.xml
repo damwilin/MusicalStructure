@@ -9,7 +9,7 @@
 
     <TextView
         style="@style/ActivityName"
-        android:text="Now playing activity" />
+        android:text="@string/now_playing_description" />
 
     <ImageView
         android:id="@+id/cover"
@@ -41,7 +41,6 @@
             style="@style/MusicButtons"
             android:src="@drawable/next_black_24dp" />
     </LinearLayout>
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"

@@ -9,6 +9,6 @@
 
     <TextView
         style="@style/ActivityName"
-        android:text="Store Activity" />
+        android:text="@string/store_description" />
 
 </LinearLayout>

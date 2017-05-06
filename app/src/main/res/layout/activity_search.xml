@@ -8,5 +8,5 @@
 
     <TextView
         style="@style/ActivityName"
-        android:text="Search Activity" />
+        android:text="@string/search_description" />
 </LinearLayout>

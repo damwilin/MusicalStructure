@@ -9,7 +9,7 @@
 
     <TextView
         style="@style/ActivityName"
-        android:text="Music Library Activity" />
+        android:text="@string/music_library_description" />
 
     <LinearLayout
         android:layout_width="match_parent"

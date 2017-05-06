@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Musical Structure</string>
+    <string name="now_playing_name">Now playing</string>
+    <string name="search_name">Search</string>
+    <string name="store_name">Store</string>
+    <string name="music_library_name">Music library</string>
+    <string name="now_playing_description"></string>
+    <string name="search_description"></string>
+    <string name="store_description"></string>
+    <string name="music_library_description"></string>
 </resources>
