@@ -29,7 +29,7 @@ public class NowPlaying extends AppCompatActivity {
             }
         });
         //Adding song to player
-        mediaPlayer = MediaPlayer.create(this, R.raw.bensound_cute);
+        mediaPlayer = MediaPlayer.create(this, R.raw.beat1);
 
         final ImageView playButton = (ImageView) findViewById(R.id.play_song);
         playButton.setOnClickListener(new View.OnClickListener() {
@@ -44,20 +44,5 @@ public class NowPlaying extends AppCompatActivity {
                 }
             }
         });
-        ImageView nextSong = (ImageView) findViewById(R.id.next_song);
-        nextSong.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-
-    }
-
-    private void moveSongToMiddle() {
-        int currPosition = mediaPlayer.getCurrentPosition();
-        int duration = mediaPlayer.getDuration();
-        if ((duration - currPosition) > 15)
-            mediaPlayer.seekTo(currPosition + 15);
     }
 }
